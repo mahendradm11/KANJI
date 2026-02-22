@@ -1,0 +1,39 @@
+body {
+  text-align:center;
+  font-family:Arial;
+  background:#f4f4f4;
+}
+
+.card {
+  width:320px;
+  min-height:220px;
+  margin:30px auto;
+  background:white;
+  border-radius:10px;
+  box-shadow:0 5px 12px rgba(0,0,0,0.2);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  cursor:pointer;
+  padding:20px;
+}
+
+.kanji {
+  font-size:80px;
+}
+
+.examples {
+  font-size:14px;
+  margin-top:10px;
+}
+
+button {
+  padding:10px 20px;
+  margin:5px;
+  border:none;
+  background:#e63946;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
