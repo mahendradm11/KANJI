@@ -2,7 +2,6 @@ let index = 0;
 let flipped = false;
 
 const cardDiv = document.getElementById("card");
-
 function randomIndex() {
   return Math.floor(Math.random() * kanjiData.length);
 }
